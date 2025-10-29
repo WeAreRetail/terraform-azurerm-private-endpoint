@@ -71,7 +71,7 @@ It adds the option to specify a private DNS Zone. When set, Azure will take care
 | <a name="input_custom_name"></a> [custom\_name](#input\_custom\_name) | Specifies a custom name for the resource. | `string` | `""` | no |
 | <a name="input_custom_tags"></a> [custom\_tags](#input\_custom\_tags) | The custom tags to add on the resource. | `map(string)` | `{}` | no |
 | <a name="input_description"></a> [description](#input\_description) | Resource description. | `string` | `""` | no |
-| <a name="input_private_dns_zone_group"></a> [private\_dns\_zone\_group](#input\_private\_dns\_zone\_group) | The private DNS zone groupe. Example {name = "default", ids = ["azurerm\_private\_dns\_zone.private\_dns\_zones.id"]} | <pre>list(<br>    object({<br>      name = string<br>      ids  = list(string)<br>    })<br>  )</pre> | `null` | no |
+| <a name="input_private_dns_zone_group"></a> [private\_dns\_zone\_group](#input\_private\_dns\_zone\_group) | The private DNS zone groupe. Example {name = "default", ids = ["azurerm\_private\_dns\_zone.private\_dns\_zones.id"]} | <pre>list(<br/>    object({<br/>      name = string<br/>      ids  = list(string)<br/>    })<br/>  )</pre> | `null` | no |
 
 #### Outputs
 
